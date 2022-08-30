@@ -1,0 +1,26 @@
+q1...
+
+function Wish(day, month){
+   var today = new Date();
+   if(today.getDate() == day && today.getMonth()+1 == month){
+       console.log('Happy Birthday');
+   }
+   else{
+       console.log('No Birthday');
+   }
+}
+
+var day = prompt("Enter date");
+var month = prompt("Enter month");
+
+Wish(day, month);
+
+q2...
+
+function week(age){
+   var wk = age * 52;
+   console.log("No of week in Human life :",wk);
+}
+
+var age = prompt("Enter your age");
+week(age);
